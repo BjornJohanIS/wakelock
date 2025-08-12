@@ -18,10 +18,10 @@ dependencies:
   wakelock_macos: ^0.4.0
   wakelock_platform_interface: ^0.3.0
   wakelock_web: ^0.4.0
-  wakelock_windows:
-    git:
-      url: https://github.com/BjornJohanIS/wakelock.git
-      path: wakelock_windows
+ # wakelock_windows:
+ #   git:
+ #     url: https://github.com/BjornJohanIS/wakelock.git
+ #     path: wakelock_windows
 
 dev_dependencies:
   flutter_test:
@@ -40,7 +40,7 @@ flutter:
         pluginClass: WakelockPlugin
       macos:
         default_package: wakelock_macos
-      windows:
-        default_package: wakelock_windows
+      #windows:
+      #  default_package: wakelock_windows
       web:
         default_package: wakelock_web
